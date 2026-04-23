@@ -78,7 +78,7 @@ npm start
  Open:
 
 http://localhost:3000
-🧪 API Endpoints
+ API Endpoints
 Method	Endpoint	Description
 POST	/notes/	Create a note
 GET	/notes/	Get all notes (search/filter)

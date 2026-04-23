@@ -11,7 +11,7 @@ models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
-# ✅ CORS FIX (IMPORTANT)
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # allow React frontend
